@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="cal.css" />
+
+</head>
+
+<body>
+
+    <div align="center">
+        <h1>CALCULATOR</h1>
+
+        <table border="none" width="288px" height="320px">
+            <tr>
+                <th><input type="text" id="display"  value=""  placeholder="0"  class="screen"  disabled /></th>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button"  id="clear"   value="CLEAR"  class="a"  onclick="erase()" />
+                    <input type="button"  id="divide"  value="÷"   class="b"  onclick="showValue('/')" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button"   id="seven"     value="7"  class="c"   onclick="showValue('7')" />
+                    <input type="button"   id="eight"     value="8"  class="d"   onclick="showValue('8')" />
+                    <input type="button"   id="nine"      value="9"  class="e"   onclick="showValue('9')" />
+                    <input type="button"   id="multiply"  value="×"  class="f"   onclick="showValue('*')" />
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button"   id="four"      value="4"   class="g"   onclick="showValue('4')" />
+                    <input type="button"   id="five"      value="5"   class="h"   onclick="showValue('5')" />
+                    <input type="button"   id="six"       value="6"   class="i"   onclick="showValue('6')" />
+                    <input type="button"   id="subtract"  value="−"   class="j"   onclick="showValue('-')" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button"   id="one"     value="1"    class="k"    onclick="showValue('1')" />
+                    <input type="button"   id="two"     value="2"    class="l"    onclick="showValue('2')" />
+                    <input type="button"   id="three"   value="3"    class="m"    onclick="showValue('3')" />
+                    <input type="button"   id="sum"     value="+"    class="n"    onclick="showValue('+')" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button"  id="zero"   value="0"    class="o"   onclick="showValue('0')" />
+                    <input type="button"  id="dot"    value="•"    class="p"   onclick="showValue('.')" />
+                    <input type="button"  id="equal"  value="="    class="q"   onclick="total()" />
+
+
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+<script src="calc.js"></script>
+
+</body>
+</html>

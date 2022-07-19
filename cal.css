@@ -1,0 +1,47 @@
+input{
+    padding: 28.37px;
+    margin:-0.95px ;
+    font-weight: 600;
+  
+   
+}
+
+
+.a{
+    width:208px;
+    background-color: rgb(177, 175, 175);
+
+}
+
+
+.b, .f, .j, .n, .q{
+    background-color: rgb(71, 187, 223);
+   
+}
+
+
+.c, .d, .e, .g, .h,
+.i, .k, .l, .m, .p, .o{
+
+    background-color: rgb(247, 245, 245);
+
+}
+
+
+.q{
+    width: 141.5px;
+    background-color: rgb(71, 187, 223);
+
+}
+
+
+.screen{
+    padding:35px;
+    width: 205px;
+    height:25px ;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
